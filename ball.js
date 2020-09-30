@@ -5,6 +5,7 @@ class Ball {
           'friction':0.3,
           'density':1.0
         }
+
         this.body = Bodies.circle(x,y,25,options);
         this.radius = 25;
 
